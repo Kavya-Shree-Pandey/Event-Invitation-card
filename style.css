@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+   height: 100px;
+   
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+  align-items: flex-end;
+ /* background-color:rebeccapurple; */
+ min-height: 30px;
+ background-image: url(navbar.jpg);
+
+ 
+ 
+}
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: x-large;
+}
+nav a:hover{
+    color: brown;
+}
+
+.container-Home{
+    display: flex;
+height: 800px;
+background-image: url("bg1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+/* background-color: red; */
+}
+
+.left{
+  
+    height: 80%;
+    width: 50%;
+    /* background-color: purple; */
+}
+.left .left-inside{
+  
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    color: aliceblue;
+}
+
+
+.right{
+  
+    height: 80%;
+    width: 50%;
+    /* background-color: yellow; */
+   
+}
+
+.right .right-inside{
+  
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    animation-name: myanimation;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3),0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes myanimation{
+    0%{
+        background-image: url("img1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        
+    }
+    20%{
+        background-image: url("img2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    40%{
+        background-image: url("img3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    60%{
+        background-image: url("img4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    80%{
+        background-image: url("img5.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    100%{
+        background-image: url("img6.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+}
+
+#name{
+    font-size: 105px;
+    padding-left: 60px;
+    padding-top: 70px;
+    text-shadow: 2px 2px  5px rgba(0,0,0,0.3),-2px -2px -5px rgba(255, 255, 255, 0.3),0 0 10px rgba(255, 107, 107, 0.5);
+}
+
+#line{
+    text-decoration: underline overline;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+
+
+.fa-heart{
+   
+    color: red;
+    height: 20px;
+    width: 20px;
+    padding-right: 40px;
+}
+
+.date{
+      text-align: center;
+      margin-left: 320px;
+      font-size: x-large;
+}
+
+#About{
+    background-color: darkcyan;
+    height: 1000px;
+}
+
