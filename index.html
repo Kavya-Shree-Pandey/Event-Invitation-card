@@ -16,11 +16,12 @@
   <body>
     <header>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Venue</a>
-        <a href="#">Contact</a>
-        <a href="#">RSVP</a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Venue">Venue</a>
+        <a href="#Events">Event</a>
+        <a href="#Contact">Contact</a>
+        <a href="#RSVP">RSVP</a>
       </nav>
     </header>
     <main>
@@ -60,7 +61,77 @@ Neither believed in "love at first sight," until they found themselves living it
 And just like that - two strangers became each other's forever.
         
         </h3>
-      </section>
+        <div class="About-upper-div">
+          <h1 id="Groom">Groom's family</h1>
+          <div class="groom-div">
+            <img src="Groom-mother.jpg" class="groom-family">
+            <img src="Groom-dad.jpg" class="groom-family">
+            <img src="Groom-sister.jpg" class="groom-family">
+            <img src="Groom-brother.jpg" class="groom-family">
+          </div>
+          <h1 id="Groom">Bride's family</h1>
+          <div class="groom-div">
+            <img src="Bride-mother.jpg" class="groom-family">
+            <img src="Bride-dad.jpg" class="groom-family">
+            <img src="Bride-sister.jpg" class="groom-family">
+            <img src="Bride-brother.jpg" class="groom-family">
+          </div>
+        </section>
+          <section id="Venue">
+            <h2 id="inner-venue">Venue</h2>
+            <div class="con-img">
+              <img src="venue.jpg" class="v-img">
+            </div>
+            
+            <p id="Location">
+              <h1>Location:</h1> <h2 id="inside-location">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero architecto delectus repellat.</h2>
+            </p>
+            <button id="button"><a href="https://www.google.com/maps/search/map+location/@26.8614088,80.9860264,12.95z?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D">Google map</a></button>
+          </section>
+          <section id="Contact">
+            Contact us :
+            <p>email: abc@gmail.com</p>
+            <p>+91 9876543210</p>
+            <p>Hosted by: Kavya Shree Pandey</p>
+          </section>
+          <section id="RSVP">
+            <div class="b"><h2>Name</h2>
+            <label for="id1">
+              
+              <input type="text" name="first name" placeholder="first name" id="id1">
+              <input type="text" name="last name" placeholder="last name" id="id1">
+            </label>
+</div>
+
+
+<div class="b">
+            <label for="id2">
+              <h2>Email</h2>
+              
+              <input type="text" name="email" placeholder="email" id="id2">
+              
+
+          </div>
+
+          <div class="b">
+            <h2>Contact</h2>
+            <label for="id3">
+              
+              <input type="tel" name="phone" placeholder="Enter your number" id="id3" pattern="[0-9]{10}" required>
+              
+
+          </div>
+
+          <div class="b">
+            <h2>Attendance</h2>
+            <button class="btn1 c">Yes</button><button class="btn1 d">No</button>
+          </div>
+          <div>
+            <button id="Submit">Submit</button>
+          </div>
+          </section>
+        
     </main>
+
   </body>
 </html>
